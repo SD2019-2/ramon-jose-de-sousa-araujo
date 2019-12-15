@@ -1,0 +1,13 @@
+Stubs dinâmicos
+https://docs.oracle.com/javase/tutorial/rmi/overview.html
+
+1. javac *.java
+2. Server:
+rmiregistry &
+java -Djava.rmi.server.cocobase=file:./Funcionario Server
+
+3. Client:
+java -Djava.rmi.server.codebase=file:./Funcionario Aplicativo
+
+
+
